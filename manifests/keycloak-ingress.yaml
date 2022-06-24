@@ -5,12 +5,12 @@ metadata:
 spec:
   tls:
     - hosts:
-      - KEYCLOAK_HOST
+      - www.demo.io
   rules:
-  - host: KEYCLOAK_HOST
+  - host: www.demo.io
     http:
       paths:
-      - path: /
+      - path: /keycloak
         pathType: Prefix
         backend:
           service:
