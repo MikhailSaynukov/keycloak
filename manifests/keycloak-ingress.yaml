@@ -6,9 +6,9 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-      - www.keycloak.demo.io
+      - www.keycloak.lab.com
   rules:
-  - host: www.keycloak.demo.io
+  - host: www.keycloak.lab.com
     http:
       paths:
       - path: /keycloak
