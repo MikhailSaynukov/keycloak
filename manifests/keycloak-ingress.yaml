@@ -6,9 +6,6 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   ingressClassName: nginx
-  tls:
-    - hosts:
-      - www.keycloak.lab.com
   rules:
   - host: www.keycloak.lab.com
     http:
